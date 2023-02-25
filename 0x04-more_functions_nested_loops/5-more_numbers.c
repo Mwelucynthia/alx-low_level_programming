@@ -3,7 +3,6 @@
 /**
  * more_numbers - print more numbers
  */
-
 void more_numbers(void)
 {
 	int i, j;
@@ -16,7 +15,7 @@ void more_numbers(void)
 				-putchar('1');
 			-putchar (j % 10 + '0');
 		}
-		-putchar('\n');
+		_putchar('\n');
 	}
 }
 
